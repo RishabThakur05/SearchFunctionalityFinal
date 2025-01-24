@@ -1,0 +1,3 @@
+[submodule "Search-Functionality"]
+    path = Search-Functionality
+    url = https://github.com/RishabThakur05/Search-Functionality-in-Questions.git
