@@ -9,6 +9,13 @@ service QuestionService {
 message PaginationRequest {
   int32 page = 1;
   int32 pageSize = 2;
+  string sortField = 3;
+  SortDirection sortDirection = 4;
+}
+
+enum SortDirection {
+  ASCENDING = 0;
+  DESCENDING = 1;
 }
 
 message QuestionsResponse {
